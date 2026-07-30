@@ -1,0 +1,12 @@
+# MagicSchool Security Contact
+# https://securitytxt.org/
+
+Contact: mailto:security@magicschool.ai
+Expires: 2026-01-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.magicschool.ai/.well-known/security.txt
+Policy: https://www.magicschool.ai/privacy-security/vulnerability-disclosure-policy
+
+# We do not operate a paid bug bounty program.
+# Please review our Vulnerability Disclosure Policy before submitting.
+# Valid submissions must include [MSAI-VDP] in the subject line.

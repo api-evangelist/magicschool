@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.magicschool.ai/
+url: https://trust.magicschool.ai/
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://trust.magicschool.ai/
+  keywords:
+  - soc2
+  - trust center
+  - gdpr
