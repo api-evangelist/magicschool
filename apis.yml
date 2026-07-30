@@ -1,8 +1,15 @@
 aid: magicschool
 name: MagicSchool
-description: 'MagicSchool is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MagicSchool is an AI platform for K-12 education, used by schools and
+  districts to save teachers time and personalize learning. It offers 80+ AI-powered
+  teacher tools (lesson and unit planning, rubrics, IEP support, differentiation,
+  assessment writing, communication) and 50+ student tools delivered through a moderated,
+  student-safe AI assistant, alongside district-level administration with enterprise
+  controls, data dashboards, and single sign-on. The platform emphasizes responsible
+  AI and privacy for education, and integrates with the major classroom ecosystems
+  (Google, Clever, Canvas, ClassLink, Schoology, Microsoft). MagicSchool is a Bain
+  Capital Ventures portfolio company. No public developer API is offered at this time;
+  this profile captures the company''s public web, trust, and security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/magicschool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.magicschool.ai/favicon.ico
 tags:
 - Company
 - Ai Apps
+- Education
+- EdTech
+- Artificial Intelligence
+- K-12
+- Teachers
+- Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.magicschool.ai/
+- type: Blog
+  url: https://www.magicschool.ai/blog
+- type: Pricing
+  url: https://www.magicschool.ai/pricing
+- type: Support
+  url: https://help.magicschool.ai/en/
+- type: HelpCenter
+  url: https://help.magicschool.ai/en/
+- type: StatusPage
+  url: https://status.magicschool.ai/
+- type: TermsOfService
+  url: https://www.magicschool.ai/privacy-security/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.magicschool.ai/privacy-security/privacy-policy
+- type: TrustCenter
+  url: security/magicschool-trust-center.yml
+- type: Compliance
+  url: https://trust.magicschool.ai/
+- type: Security
+  url: https://www.magicschool.ai/privacy-security/vulnerability-disclosure-policy
+- type: SecurityTxt
+  url: https://www.magicschool.ai/.well-known/security.txt
+- type: WellKnown
+  url: well-known/magicschool-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/magicschool-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/magicschool-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
