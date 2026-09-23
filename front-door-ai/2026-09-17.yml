@@ -1,0 +1,25 @@
+# Front Door AI Index — magicschool — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: magicschool
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.magicschool.ai
+  final_host: www.magicschool.ai
+  ownership: own
+  owner: magicschool
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 44.44
+  words: 540
+  tiers:
+    agentic: 0
+    core: 24
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 24
