@@ -1,0 +1,47 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.magicschool.ai/pricing
+sources:
+- https://www.magicschool.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: PLUS
+published: true
+note: K-12 AI platform pricing; FAQ states yearly Plus is $99.96 yearly. Enterprise quoted via sales with
+  volume-based discounts; district add-ons unpriced.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $0 Forever Free
+  price: 0
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 80+ teacher tools, Raina chatbot, Quizzes, Class Writing Feedback, basic support
+- name: Plus (annual)
+  price_text: $8.33 USD/user/mo (billed annually)
+  price: 8.33
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Unlimited generations, output history, editing, 50+ student tools
+- name: Plus (monthly)
+  price_text: $12.99 USD/mo billed monthly
+  price: 12.99
+  currency: USD
+  period: month
+  unit: user
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Custom DPA, SIS/LMS integrations, SSO, dashboards
