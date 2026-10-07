@@ -59,6 +59,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/magicschool-plans-pricing.yml
 - type: Website
   url: https://www.magicschool.ai/
 - type: Blog
